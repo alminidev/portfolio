@@ -1,0 +1,63 @@
+/* ESTILO GERAL */
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+
+}
+
+.interface{
+    max-width: 1280px;
+    margin: auto;
+    
+}
+
+/* ESTILO DO CABEÇALHO */
+header{
+    padding: 20px 4%;
+}
+
+header >.logo{
+    display: flex;
+    
+}
+
+header >.interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: #7a7979;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    color: white;
+    transform: scale(1.02);
+
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+
+
+
+
