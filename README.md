@@ -1,7 +1,7 @@
 # Portfólio em Desenvolvimento
 
 <p align="center">
-  <img src="[https://github.com/alminidev/portfolio/blob/main/assets/logo-alminidev.png](https://github.com/alminidev/portfolio/blob/main/assets/logo-alminidev.png)" alt="Exemplo de imagem" width="1000"/>
+  <img src="https://github.com/alminidev/portfolio/blob/main/assets/logo-alminidev.png" alt="Exemplo de imagem" width="1000"/>
 </p>
 
 
