@@ -1,5 +1,7 @@
 # Portfólio em Desenvolvimento
 
+https://github.com/alminidev/portfolio/blob/main/assets/logo-alminidev.png
+
 Este é o repositório do meu portfólio pessoal, que está atualmente em fase de desenvolvimento. Estou utilizando HTML, CSS e JavaScript para criar um site interativo que destaque minhas habilidades e projetos.
 
 ## Em Construção 🚧
