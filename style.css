@@ -8,7 +8,7 @@
 }
 
 body{
-    background-color: rgb(41, 41, 41);
+    background-color: rgb(0, 0, 0);
     height: 100vh;
 
 }
@@ -21,7 +21,8 @@ body{
 
 /* ESTILO DO CABEÇALHO */
 header{
-    padding: 20px 4%;
+    padding: 5px 4%;
+    background-color: rgba(255, 255, 255, 0.959);
 }
 
 header >.logo{
@@ -33,18 +34,19 @@ header >.interface{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 header a{
-    color: #7a7979;
+    color: #000000;
     text-decoration: none;
     display: inline-block;
-    transition: .2s;
+    transition: .1s;
 }
 
 header a:hover{
-    color: white;
-    transform: scale(1.02);
+    color: #7a7979;
+  
 
 }
 
