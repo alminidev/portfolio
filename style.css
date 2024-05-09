@@ -43,7 +43,7 @@ header a{
     color: #000000;
     text-decoration: none;
     display: inline-block;
-    /* transition: .1s; */
+    transition: .2s;
 }
 
 header a:hover{
@@ -67,7 +67,7 @@ section .topo-do-site{
 section .topo-do-site .flex{
     align-items: center;
     justify-content: center;
-    gap: 90px
+    gap: 90px;
 }
 
 .topo-do-site h1{
@@ -95,12 +95,14 @@ section .topo-do-site .flex{
 button{
     color: #000000;
     text-decoration: none;
-    transition: .1s;
+    transition: .2s;
 }
 
 button:hover{
     color: #ffffff;
     background-color: #7a7979;
+    transition: .2s;
+    
 
 /* .topo-do-site .img-topo-site img{
     position: relative;
