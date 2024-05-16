@@ -1,0 +1,137 @@
+/* ESTILO GERAL */
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+
+/* PRELOADER */
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000000 url('./assets/preloader.gif') no-repeat center center;
+    z-index: 9999;
+  }
+
+
+}
+
+
+body{
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+
+}
+
+.interface{
+    max-width: 1280px;
+    margin: auto;   
+}
+
+.flex{
+    padding: 40px 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ESTILO DO CABEÇALHO */
+header{
+    padding: 8px 4%;
+    background-color: rgb(255, 255, 255);
+}
+
+header >.logo{
+    display: flex;
+    
+}
+
+header >.interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: #000000;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    color: #7a7979;
+    transition: .2s;
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+/* ESTILO DO TOPO DO SITE */
+section .topo-do-site{
+    padding: 40px 4%;
+}
+
+section .topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site h1{
+    color: #7a7979;
+    font-size: 60px;
+    align-items: center;
+}
+
+.topo-do-site .txt-topo-site p{
+    color: #7a7979;
+    font-size: 28px;
+    margin:10px 0;
+}
+
+.btn-contato button{
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: 200;
+    background-color: white;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    align-items: center;
+}
+
+button{
+    color: #000000;
+    text-decoration: none;
+    transition: .2s;
+}
+
+button:hover{
+    color: #ffffff;
+    background-color: #7a7979;
+    transition: .2s;
+    
+
+.topo-do-site .img-topo-site .topo-do-site{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
